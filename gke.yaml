@@ -1,5 +1,5 @@
 apiVersion: apps/v1
-Kind: Deployment
+kind: Deployment
 metadata:
   name: gcp-devops-gke
 spec:
@@ -18,5 +18,7 @@ spec:
         ports:
         - containerPort: 5000
         env:
-          - name: PORT 
+          - name: PORT
             value: "5000"
+        
+    
